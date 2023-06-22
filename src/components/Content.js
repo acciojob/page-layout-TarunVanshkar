@@ -5,9 +5,9 @@ const Content = (props) => {
 
     return (
         <div>
-            <h1>{props.header}</h1>
-            <p>{props.children}</p>
-            <p>{props.footer}</p>
+            {props.header}
+            {props.children}
+            {props.footer}
         </div>
 
     )
