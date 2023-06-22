@@ -1,13 +1,13 @@
 import React from "react";
 
-const Content = ({header, children, footer}) => {
+const Content = (props) => {
 
 
     return (
         <div>
-            <h1>{header}</h1>
-            <p>{children}</p>
-            <p>{footer}</p>
+            <h1>{props.header}</h1>
+            <p>{props.children}</p>
+            <p>{props.footer}</p>
         </div>
 
     )
